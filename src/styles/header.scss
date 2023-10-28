@@ -1,0 +1,91 @@
+.header-container{
+    margin: 0%;
+    position: relative;
+    display: flex;
+    height: 27.2rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #2F1F14;
+    color: #fff;
+    overflow: hidden;
+    .header-logo{
+        position: absolute;
+        top: 1%;
+        left: 1%;
+       img{
+        
+        width: 21rem;
+       }
+    }
+    .header-text{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      
+        .header-head{
+            color: rgba(255, 255, 255, 0.80);
+font-family: Pompiere;
+font-size: 7rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+        }
+        .secondary-header{
+            color: rgba(255, 255, 255, 0.90);
+font-family: Galada;
+font-size: 2rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.045rem;
+        }
+    }
+    .background{
+        position: absolute;
+        right: 0;
+        width: 65rem;
+        top: 0;
+        margin-right: -1rem;
+    }
+}
+@media(max-width:1300px){
+    .header-container .header-text .header-head {
+        color: rgba(255, 255, 255, 0.8);
+        font-family: Pompiere;
+        font-size: 4rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .header-container .header-text .secondary-header {
+        color: rgba(255, 255, 255, 0.9);
+        font-family: Galada;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.045rem;
+    }
+}
+@media(max-width:800px){
+    .header-container{
+        position: relative;
+        flex-direction: column;
+        text-align: left;
+        justify-content: left;
+        height: auto;
+        padding: 1rem;
+        .header-logo{
+            position: relative;
+            display: flex;
+            justify-content: left;
+            img{
+            }
+        }
+    }
+    .header-container .background {
+        display: none;
+     
+    }
+}
