@@ -1,0 +1,49 @@
+.body-container{
+    padding: 2rem;
+    background-color: #DBBCA1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    gap: 4rem;
+    .body-text{
+        .body-header{
+            color: #220404;
+font-family: Poppins;
+font-size: 3.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+        }
+        .body-secondary-header{
+            color: rgba(27, 11, 11, 0.85);
+font-family: Poppins;
+font-size: 2rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+        }
+        .text-1{
+            color: #000;
+font-family: Inter;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+        }
+        button{
+            margin-top: 2rem;
+            border: none;
+            color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border-radius: 0.125rem;
+background: #2F1F14;
+padding: 1rem 2rem;
+        }
+    }
+}
