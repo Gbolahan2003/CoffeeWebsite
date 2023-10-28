@@ -1,11 +1,13 @@
 import React from 'react'
 import '../styles/body.scss'
 import image from '../images/coffeeImage.png'
+import icon from '../images/coffeIcon.png'
 export const Body = () => {
   return (
+   <>
     <div className='body-container'>
       <div className="body-container-image">
-        <img src={image} alt="" />
+        <img className='icon' src={image} alt="" />
       </div>
       <div className="body-text">
         <div className="body-header">Discover Coffee Borocelle</div>
@@ -22,5 +24,27 @@ Join us in savoring the art of coffee, one cup at a time.
         </div>
       </div>
     </div>
+    <div className="review-container">
+      <div className="review-header">
+        <div className="review-header-text">Reviews</div>
+        <div className="review-header-image"><img  src={icon} alt="" /></div>
+      </div>
+      <div className="secondary-review-header">What other people are saying!</div>
+      <div className="review-cards-container">
+        <div className="review-card">
+          <div className="review-text">"Indulge in the sublime experience of Coffee Borcelle, where every sip is a journey to flavor paradise. Crafted with precision, our rich blends ignite the senses and redefine coffee appreciation."</div>
+          <div className="review-users">@elonmusk</div>
+        </div>
+        <div className="review-card">
+          <div className="review-text">"Discover a world of taste with Coffee Brocelle. Each cup is a masterpiece, blending aromas and flavors that dance on your palate. Join us in celebrating coffee at its finest."</div>
+          <div className="review-users">@JeffBezos</div>
+        </div>
+        <div className="review-card">
+          <div className="review-text">“Welcome to the heart and soul of coffee passion –Coffee Borcelle. Our carefully curated beans are an ode to craftsmanship, brewing a story of perfection in every cup.”</div>
+          <div className="review-users">@MrBeast</div>
+        </div>
+      </div>
+    </div>
+   </>
   )
 }
