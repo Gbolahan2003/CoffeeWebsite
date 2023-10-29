@@ -60,7 +60,7 @@ const Foter = () => {
     </div>
     </div>
     <div className="copy-right">
-      <p>Copyright 2020 All Rights Reserved Company Name.</p>
+      <p>Copyright 2020 All Rights Reserved Company Name'.</p>
     </div>
    </footer>
   )
