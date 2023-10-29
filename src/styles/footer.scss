@@ -1,0 +1,210 @@
+footer{
+    .footer-container{
+        padding: 6rem 6rem;
+        background-color: #291600;
+        display: flex;
+        flex-wrap: wrap;
+       
+        
+       
+        gap: 5rem;
+        .contact-con{
+            .footer-header{
+                color: #FFF;
+font-family: Inter;
+font-size: 3rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+            }
+            .footer-head{
+                color: rgba(255, 255, 255, 0.66);
+font-family: Inter;
+font-size: 2rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 2rem;
+}
+.form{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    input{
+        height: 2.5rem;
+        width: 16rem;
+        padding: 0.5rem;
+        border: none;
+        color: rgba(0, 0, 0, 0.50);
+
+font-family: Inter;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    }
+    .text{
+        margin-top: 1rem;
+        color: rgba(0, 0, 0, 0.50);
+
+font-family: Inter;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+        padding: 1rem;
+        height: 3rem;
+        width: 20rem;
+    }
+    .btn{
+        margin-top: 1rem;
+         button{
+            color: #000;
+text-align: center;
+font-family: Inter;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border: none;
+border-radius: 0.8125rem;
+background: #DBBCA1;
+padding: 0.7rem 2.5rem;
+         }
+    }
+}
+        }
+        .site-map{
+            .footer-header{
+                color: #FFF;
+font-family: Inter;
+font-size: 3rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+            }
+            .footer-head{
+                color: rgba(255, 255, 255, 0.66);
+font-family: Inter;
+font-size: 2rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 2rem;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 0.4rem;
+    .link{
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+        color: #FFF;
+        font-family: Inter;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        transition: all 0.3s;
+        &:hover{
+            cursor: pointer;
+            transform: scale(1.1);
+            color: #e7e7e7;
+        }
+       .div{
+        background-color: #FFF;
+        width: 10px;
+        height:3px;
+        border-radius: 20px;
+       }
+    }
+}
+        }
+        .communication{
+            margin-left: 3rem;
+            img{
+                width: 25rem;
+                margin-bottom: -4rem;
+            }
+            .phone{
+                font-size: 1.8rem;
+                display: flex;
+                gap: 0.6rem;
+                margin-bottom: 1rem;
+                .p{
+                    color: rgba(255, 255, 255, 0.66);
+font-family: Inter;
+
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+                }
+            }
+
+        }
+    }
+    .copy-right{
+        padding: 1.5rem;
+        background-color: #DBBCA1;
+        text-align: center;
+        p{
+            color: #000;
+font-family: Inter;
+font-size: 1.1rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+        }
+    }
+}
+
+@media(max-width:650px){
+    footer .footer-container {
+        padding: 4rem 1rem;
+        background-color: #291600;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5rem;
+    }
+    footer .footer-container .communication .phone .p {
+    color: rgba(255, 255, 255, 0.66);
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: normal;
+}
+footer .footer-container .contact-con .form .text {
+    margin-top: 1rem;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 1rem;
+    height: 3rem;
+    width: 66vw;
+}
+
+
+footer .footer-container .communication img {
+    width: 74vw;
+    margin-bottom: -1rem;
+}
+footer .footer-container .contact-con .form input {
+    height: 2.5rem;
+    width: 67vw;
+    padding: 0.5rem;
+    border: none;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+}

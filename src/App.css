@@ -2,3 +2,20 @@
   margin: 0;
   padding: 0;
 }
+@media(max-width:450px){
+  footer .footer-container {
+      padding: 4rem 1rem;
+      background-color: #291600;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5rem;
+  }
+  footer .footer-container .communication .phone .p {
+      color: rgba(255, 255, 255, 0.66);
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.2rem;
+      line-height: normal;
+  }
+}
