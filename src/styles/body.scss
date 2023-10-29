@@ -4,8 +4,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  
     gap: 7rem;
+    flex-direction: row;
     .body-text{
         .body-header{
             color: #220404;
@@ -128,7 +128,8 @@ line-height: normal;
         padding: 5rem;
         background-color: #DBBCA1;
         display: flex;
-        flex-direction: column;
+    flex-direction: column;
+
         justify-content: center;
         align-items: center;
         gap: 7rem;
@@ -149,6 +150,8 @@ line-height: normal;
 }
 @media(max-width:670px){
   .body-container{
+    flex-direction: column;
+
     .body-container-image{
         .icon{
             width: 67vw;
@@ -203,8 +206,6 @@ line-height: normal;
         line-height: normal;
     }
 }
-}
-
 .body-container {
     padding: 3rem;
     background-color: #DBBCA1;
@@ -214,3 +215,5 @@ line-height: normal;
     align-items: center;
     gap: 7rem;
 }
+}
+
